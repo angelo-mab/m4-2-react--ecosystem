@@ -69,6 +69,9 @@ const App = ({ user, data }) => {
     </>
   )
 }
+
+// <> </> wont be in the DOM
+// 
 ```
 
 ---

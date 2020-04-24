@@ -134,7 +134,8 @@ import { Link } from 'react-router-dom';
 # Question
 
 Why use `<Link to="...">` instead of `<a href="...">`?
-
+a tags reload the page
+link to
 ---
 
 # Question

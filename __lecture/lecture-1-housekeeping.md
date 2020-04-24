@@ -12,6 +12,9 @@ in SomeComponent (at src/index.js:24)
 in App (at src/index.js:31)
 ```
 
+const Bacon = ({ items }) => (
+  {items.map(item => <li key={`id${item.text.replace(' ', '-')}`}}>{item.text})}
+)
 ---
 
 ### 🏠Housekeeping: Modules
