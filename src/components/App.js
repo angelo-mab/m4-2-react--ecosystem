@@ -14,14 +14,14 @@ function App(props) {
         <Header />
         <Main>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
             <Route path="/items/:itemId">
               <ItemDetails />
+            </Route>
+            <Route path='/about'>
+              <About />
+            </Route>
+            <Route path='/'>
+              <Home />
             </Route>
           </Switch>
         </Main>

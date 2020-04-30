@@ -3,16 +3,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const ListingItem = ({ item }) => {
- return (
-  <CardLink to={`/items/${item.id}`}>
-   <Wrapper>
-    <FruitPic src={item.imageSrc} />
-    <Name></Name>
-    <Decoration />
-    <LatinName>{item.latinName}</LatinName>
-   </Wrapper>
-  </CardLink>
- );
+    return (
+        <CardLink to={`/items/${item.id}`}>
+            <Wrapper>
+                <FruitPic src={item.imageSrc} />
+                <Name>{item.name}</Name>
+                <Decoration />
+                <LatinName>{item.latinName}</LatinName>
+            </Wrapper>
+        </CardLink>
+    );
 }
 const CardLink = styled(Link)`
     text-decoration: none;

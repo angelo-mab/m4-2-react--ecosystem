@@ -9,10 +9,12 @@ function Header() {
             <Title>Fruit Emporium</Title>
             <ul>
                 <li>
-                    <Link Exact activeClassName="active" to="/">Home</Link>
+                    {/* <Link Exact activeClassName="active" to="/">Home</Link> */}
+                    <Link to="/">Homepage</Link>
                 </li>
                 <li>
-                    <Link activeClassName="active" to="/about">About</Link>
+                    {/* <Link activeClassName="active" to="/about">About</Link> */}
+                    <Link to="/about">About</Link>
                 </li>
             </ul>
         </Wrapper>
